@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Ignore any errors. This step can take up to 10 minutes, please wait!
+echo "Ignore any errors. This step can take up to 10 minutes, please wait!"
 
 fastboot flash userdata flash/userdata.img
 fastboot erase metadata
